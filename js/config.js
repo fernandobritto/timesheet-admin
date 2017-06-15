@@ -2,7 +2,7 @@
 
 function setConfig(){
     var texts = {
-        "title":"Purchasing Control"
+        "title":"CompreControl"
     };
     document.title = texts.title;
     document.getElementById("navTitle").innerHTML = texts.title;
