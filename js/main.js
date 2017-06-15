@@ -10,7 +10,7 @@ function getTotal(list){
     for(var key in list){
         total += list[key].value * list[key].amount;
     }
-    return total;
+    document.getElementById("totalValue").innerHTML = formatValue(total);
 }
 
 function setList(list){
@@ -20,6 +20,8 @@ function setList(list){
     }
     table += '<tbody>';
     document.getElementById("listTable").innerHTML = table;
+    getTotal(list);
+    saveListStorage(list);
 }
 
 
@@ -154,10 +156,29 @@ function validation(){
 
         return 1;
     }
-
-
 }
 
-setList(list);
-console.log(getTotal(list));
+function deleteList(){
+    if(confirm("Delete this list?")){
+        list = [];
+        setList(list);
+    }
+}
+
+
+function saveListStorage(list){
+    var jsonStr = JSON.stringify(list);
+    localStorage.setItem("list", jsonStr);
+}
+
+function initListStorage(){
+    var testList = localStorage.getItem("list");
+    if(testList){
+        list = JSON.parse(testList);
+    }
+    setList(list);
+}
+
+
+initListStorage();
 
