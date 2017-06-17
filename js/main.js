@@ -1,4 +1,4 @@
-
+// object list
 var list = [
     {"desc":"rice", "amount":"1", "value":"5.40"},
     {"desc":"beer", "amount":"12", "value":"1.99"},
