@@ -40,7 +40,7 @@ function formatAmount(amount){
 function formatValue(value){
     var str = parseFloat(value).toFixed(2) + "";
     str = str.replace(".",",");
-    str = "$ " + str;
+    str = "R$ " + str;
     return str;
 }
 
