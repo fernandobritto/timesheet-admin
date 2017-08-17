@@ -129,18 +129,18 @@ function validation(){
     document.getElementById("errors").style.display = "none";
 
     if(desc === ""){
-        errors += '<p>Fill out description</p>';
+        errors += '<p>Preencha a descrição</p>';
     }
     if(amount === ""){
-        errors += '<p>Fill out a quantily</p>';
+        errors += '<p>Preencha uma quantidade</p>';
     }else if(amount != parseInt(amount)){
-        errors += '<p>Fill out a valid amount</p>';
+        errors += '<p>Preencha um valor de montante válido</p>';
     }
 
     if(value === ""){
-        errors += '<p>Fill out a quantily</p>';
+        errors += '<p>Preencha uma quantidade</p>';
     }else if(value != parseFloat(value)){
-        errors += '<p>Fill out a valid value</p>';
+        errors += '<p>Preencha um valor válido</p>';
     }
 
     if(errors != ""){
@@ -159,7 +159,7 @@ function validation(){
 }
 
 function deleteList(){
-    if(confirm("Delete this list?")){
+    if(confirm("Deseja excluir esta lista?")){
         list = [];
         setList(list);
     }
