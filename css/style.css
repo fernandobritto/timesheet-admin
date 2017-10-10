@@ -1,4 +1,5 @@
 	/* 	CSS  Document */
+@import url("/fonts.css");
 
   *, *:before, *:after {
     box-sizing: border-box;
