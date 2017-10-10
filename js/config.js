@@ -1,5 +1,4 @@
 
-
 function setConfig(){
     var texts = {
         "title":"CompreControl"
@@ -9,4 +8,3 @@ function setConfig(){
 }
 
 setConfig();
-

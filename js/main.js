@@ -165,7 +165,6 @@ function deleteList(){
     }
 }
 
-
 function saveListStorage(list){
     var jsonStr = JSON.stringify(list);
     localStorage.setItem("list", jsonStr);
@@ -178,6 +177,5 @@ function initListStorage(){
     }
     setList(list);
 }
-
 
 initListStorage();
