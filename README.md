@@ -1,3 +1,3 @@
 # CompreControl
-Aplicação desenvolvida em JavaScript Puro para controle e gerenciamento de compras.
+Aplicação para controle e gerenciamento de compras.
 
