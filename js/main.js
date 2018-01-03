@@ -159,28 +159,10 @@ function validation(){
 }
 
 function deleteList(){
-    // if(confirm("Deseja excluir esta lista?")){
-    //     list = [];
-    //     setList(list);
-    // }
-    swal({
-        title: 'Atenção',
-        text: "Deseja excluir esta lista?",
-        type: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Sim, excluir!'
-    }).then((result) => {
-    if (result.value) {
+    if(confirm("Deseja excluir esta lista?")){
         list = [];
-    swal(
-      'Deleted!',
-      'Lista excluida com sucesso!',
-      'success'
-    )
-  }
-})
+        setList(list);
+    }
 }
 
 function saveListStorage(list){
