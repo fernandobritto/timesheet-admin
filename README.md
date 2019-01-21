@@ -1,4 +1,4 @@
 # CompreControl
 
-Aplicação para controle e gerenciamento das compras.
+> Aplicação para controle e gerenciamento das compras.
 
