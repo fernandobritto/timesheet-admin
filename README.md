@@ -1,4 +1,3 @@
-# CompreControl
+# Cloud Computing
 
-> **Aplicação para controle e gerenciamento das compras**.
 
