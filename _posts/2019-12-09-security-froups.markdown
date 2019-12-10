@@ -2,7 +2,7 @@
 layout: post
 title:  "Grupos de Segurança do EC2"
 date:   2019-12-09 21:43:35 -0200
-categories: jekyll update
+categories: Amazon EC2
 ---
 
 # Security Groups
