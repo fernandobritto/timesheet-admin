@@ -1,0 +1,40 @@
+{
+  "name": "timesheet-admin",
+  "version": "0.1.0",
+  "description": "Timesheet Admin API",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Rest",
+    "Nodejs",
+    "Javascript",
+    "Serverless"
+  ],
+  "author": "Fernando Britto",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1404.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.8.8",
+    "serverless-offline": "^12.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandobritto/timesheet-admin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fernandobritto/timesheet-admin/issues"
+  },
+  "homepage": "https://github.com/fernandobritto/timesheet-admin#readme"
+}
